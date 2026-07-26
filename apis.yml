@@ -1,7 +1,16 @@
 aid: edited
 name: EDITED
-description: EDITED is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EDITED is an AI-powered retail intelligence platform that helps retailers,
+  buyers, merchandisers, planners, designers, and eCommerce teams make
+  data-driven decisions across assortment, pricing, and promotions. Its Market
+  API (the EDITED Data product) exposes a large normalized retail market data
+  set — SKUs, brands, categories, pricing, and assortment signals across
+  thousands of retailers and many countries — so organizations can benchmark
+  against competitors in real time, spot emerging trends early, and integrate
+  competitive intelligence into their own systems. The company is a Seedcamp
+  portfolio company; access to the Market API is sales-gated (demo / contact
+  sales) with no public developer portal or OpenAPI at this time.
 url: https://raw.githubusercontent.com/api-evangelist/edited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://edited.com/wp-content/uploads/2024/03/EDITED-Default-OG-Banner-1200x630-01.jpg
 tags:
 - Company
+- Retail
+- Retail Intelligence
+- Market Data
+- Competitive Intelligence
+- Pricing Intelligence
+- Fashion
+- eCommerce
+- Analytics
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://edited.com
+  url: https://edited.com
+- type: Blog
+  url: https://edited.com/blog/
+- type: BlogRSS
+  url: https://edited.com/blog/feed/
+- type: TermsOfService
+  url: https://edited.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://edited.com/privacy-policy/
+- type: Support
+  url: https://edited.com/contact-us/
+- type: Login
+  url: https://my.edited.com/login
+- type: SignUp
+  url: https://edited.com/book-a-demo/
+- type: DomainSecurity
+  url: security/edited-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
