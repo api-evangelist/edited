@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/edited/integrations
 - https://n8n.io/integrations/edited/
@@ -10,7 +10,25 @@ checked:
 - https://monid.ai/tools/edited
 - https://n8n.io/integrations/edited/
 - https://zapier.com/apps/edited/integrations
+- salesforce-commerce-cloud/integrations/salesforce-commerce-cloud-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Salesforce Commerce Cloud (own)
+  partner: salesforce-commerce-cloud
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=16477717-319e-4bc8-950e-abd449c94956
+  mirror_of: salesforce-commerce-cloud/integrations/salesforce-commerce-cloud-integration-edges.yml
+  apps:
+  - 'EDITED Cartridge for B2C Commerce: Drive Conversion on High Traffic Web Pages'
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: eCommerce, analytics, dataVisualization
 templates: []
